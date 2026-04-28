@@ -1,0 +1,24 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("===Syntax Basics===");
+Console.WriteLine("from https://www.w3schools.com/cs/cs_syntax.php");
+Console.WriteLine("\n");
+Console.WriteLine("Here's an example of a program:\n");
+Console.WriteLine("1\tusing System;\n2\tnamespace HelloWorld\n3\t{\n4\t\tclass Program\n5\t\t{\n6\t\t\tstatic void Main(string[] args)\n7\t\t\t{\n8\t\t\t\tConsole.WriteLine('Hello World!');\n9\t\t\t}\n10\t\t}\n11\t}");
+Console.WriteLine("\n");
+Console.WriteLine("===NOTICE===");
+Console.WriteLine("1. Every statement ends with a semicolon - ;");
+Console.WriteLine("\t-Like using System and the Console.WriteLine statement ");
+Console.WriteLine("2. C# isn't tab sensitive for the program to read, but it does help with human legibility");
+Console.WriteLine("3. Blocks of code are defined by curly brackets - { code... }");
+Console.WriteLine("4. C# is case sensitive, so 'MyClass' and 'myclass' are two different things");
+Console.WriteLine("\n===Breakdown by line===");
+Console.WriteLine("1\tusing System; <--------System is capitalized and defines the NAMESPACE we are using");
+Console.WriteLine("\t-Without this line, you would have to call the Console CLASS of the System NAMESPACE every time you wanted to write a line - like System.Console.WriteLine()");
+Console.WriteLine("\t-You can use multiple NAMESPACES in a .cs file, but you should probably put each one on a new line");
+Console.WriteLine("\n");
+Console.WriteLine("2\tnamespace HelloWorld <------------HelloWorld is also a namespace here, but that just sounds like its the name of the overall function/method...");
+Console.WriteLine("\n3\t{ <-------------The code inside namespace HelloWorld goes from lines 3 - 11");
+Console.WriteLine("\n4\t\tclass Program <------------A class called Program is created. Classes contain data and methods.");
+Console.WriteLine("\t-Any line of code that runs in C# must be in a class");
+Console.WriteLine("\n5\t\t{ <---------------The code inside the class Program goes from lines 5-10");
+Console.WriteLine("\n6\t\t\tstatic void Main(string[] args) <----------------");

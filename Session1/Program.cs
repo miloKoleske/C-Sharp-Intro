@@ -21,4 +21,9 @@ Console.WriteLine("\n3\t{ <-------------The code inside namespace HelloWorld goe
 Console.WriteLine("\n4\t\tclass Program <------------A class called Program is created. Classes contain data and methods.");
 Console.WriteLine("\t-Any line of code that runs in C# must be in a class");
 Console.WriteLine("\n5\t\t{ <---------------The code inside the class Program goes from lines 5-10");
-Console.WriteLine("\n6\t\t\tstatic void Main(string[] args) <----------------");
+Console.WriteLine("\n6\t\t\tstatic void Main(string[] args) <----------------C# always uses a Main method");
+Console.WriteLine("\n7\t\t\t{ <---------------code inside the main method is on line 8");
+Console.WriteLine("\n8\t\t\t\tConsole.WriteLine('Hello World!'); <---------------WriteLine method is being called to the console to write 'Hello World!'");
+Console.WriteLine("\n9\t\t\t} <---------------closing bracket for main method");
+Console.WriteLine("\n10\t\t} <---------------closing bracket for class called Program");
+Console.WriteLine("\n11} <------------------closing bracket for namespace");
